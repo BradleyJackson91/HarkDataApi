@@ -1,0 +1,6 @@
+C:\Git\Personal\HarkDataApi\HarkDartaApiTests\bin\Debug\net8.0\CoverletSourceRootsMapping_HarkDartaApiTests
+C:\Git\Personal\HarkDataApi\HarkDartaApiTests\obj\Debug\net8.0\HarkDartaApiTests.csproj.AssemblyReference.cache
+C:\Git\Personal\HarkDataApi\HarkDartaApiTests\obj\Debug\net8.0\HarkDartaApiTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\Personal\HarkDataApi\HarkDartaApiTests\obj\Debug\net8.0\HarkDartaApiTests.AssemblyInfoInputs.cache
+C:\Git\Personal\HarkDataApi\HarkDartaApiTests\obj\Debug\net8.0\HarkDartaApiTests.AssemblyInfo.cs
+C:\Git\Personal\HarkDataApi\HarkDartaApiTests\obj\Debug\net8.0\HarkDartaApiTests.csproj.CoreCompileInputs.cache

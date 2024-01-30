@@ -1,0 +1,51 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="BLTests - Copy\**" />
+    <Compile Remove="DALTests - Copy\**" />
+    <Compile Remove="ILTests - Copy\**" />
+    <Compile Remove="NewFolder\**" />
+    <Compile Remove="PLTests - Copy\**" />
+    <Compile Remove="SLTests - Copy\**" />
+    <EmbeddedResource Remove="BLTests - Copy\**" />
+    <EmbeddedResource Remove="DALTests - Copy\**" />
+    <EmbeddedResource Remove="ILTests - Copy\**" />
+    <EmbeddedResource Remove="NewFolder\**" />
+    <EmbeddedResource Remove="PLTests - Copy\**" />
+    <EmbeddedResource Remove="SLTests - Copy\**" />
+    <None Remove="BLTests - Copy\**" />
+    <None Remove="DALTests - Copy\**" />
+    <None Remove="ILTests - Copy\**" />
+    <None Remove="NewFolder\**" />
+    <None Remove="PLTests - Copy\**" />
+    <None Remove="SLTests - Copy\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.6.0" />
+    <PackageReference Include="NUnit" Version="3.13.3" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.2.1" />
+    <PackageReference Include="NUnit.Analyzers" Version="3.6.1" />
+    <PackageReference Include="coverlet.collector" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HarkDataApi\HarkDataApi.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ILTests\" />
+    <Folder Include="PLTests\" />
+    <Folder Include="SLTests\" />
+  </ItemGroup>
+
+</Project>

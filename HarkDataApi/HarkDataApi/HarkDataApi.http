@@ -1,0 +1,6 @@
+@HarkDataApi_HostAddress = http://localhost:5020
+
+GET {{HarkDataApi_HostAddress}}/sensordata/
+Accept: application/json
+
+###
